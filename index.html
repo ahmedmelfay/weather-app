@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/377f231a5c.js" crossorigin="anonymous"></script>
+    <title>Weather</title>
+</head>
+<body>
+    <nav>
+        <div class="container py-3 position-relative">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo d-flex">
+                    <div class="img">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="title">Weather</h1>
+                        <p class="sub-title">tagline goes here</p>
+                    </div>
+                </div> 
+                <div class="hamburger-menu position-relative justify-content-center align-items-center"><i class="fas fa-bars"></i></div> 
+            </div>
+            <div class="navigation">
+                <ul class="list">
+                    <li class="list-item active">Home</li>
+                    <li class="list-item">News</li>
+                    <li class="list-item">Live cameras</li>
+                    <li class="list-item">Photos</li>
+                    <li class="list-item">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar-->
+
+    <section id="bg">
+        <div class="container">
+            <div class="position-relative py-5">
+                <input type="text" class="search my-4 rounded-pill" placeholder="find your location...">
+                <a class="search-button">Find</a>
+            </div>
+        </div>
+    </section>
+    <!--Search-->
+
+    <section id="weather">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-sm-12 col-md-12 col-lg-4 current bg-items-light p-0">
+                    
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4 next-day p-0 text-center">
+                    
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4 third-day bg-items-light p-0 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Weather-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="d-flex align-items-center pt-5 flex-wrap">
+                <div class="position-relative subscribe">
+                    <input type="text" class="email rounded-pill" placeholder="Subscribe to our news letter...">
+                    <a class="submit-mail">Subscribe</a>
+                </div>
+                <div class="d-flex icons">
+                    <div class="icon mx-1"><i class="p-3 fab fa-facebook-f"></i></div>
+                    <div class="icon mx-1"><i class="p-3 fab fa-twitter"></i></div>
+                    <div class="icon mx-1"><i class="p-3 fab fa-google-plus-g"></i></div>
+                    <div class="icon mx-1"><i class="p-3 fab fa-pinterest-p"></i></div>
+                </div>
+            </div>
+            <p class="m-0 py-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <!--Footer-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
