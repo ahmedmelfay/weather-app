@@ -252,8 +252,11 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .navigation .list {
-    height: 0;
+  .navigation .nav-visible {
+    height: 250px;
+  }
+  .navigation .nav-not-visible {
+    height: 0px;
   }
   .navigation .list .list-item {
     padding: 12px 24px;
@@ -290,8 +293,11 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .navigation .list {
-    height: 0;
+  .navigation .nav-visible {
+    height: 250px;
+  }
+  .navigation .nav-not-visible {
+    height: 0px;
   }
   .navigation .list .list-item {
     padding: 12px 24px;

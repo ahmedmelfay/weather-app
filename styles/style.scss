@@ -223,8 +223,13 @@ body{
         }
     }
     .navigation{
+        & .nav-visible{
+            height: 250px;
+        }
+        & .nav-not-visible{
+            height: 0px;
+        }
         & .list{
-            height: 0;
             & .list-item{
                 padding: 12px 24px;
                 text-align: center;
@@ -263,8 +268,13 @@ body{
         }
     }
     .navigation{
+        & .nav-visible{
+            height: 250px;
+        }
+        & .nav-not-visible{
+            height: 0px;
+        }
         & .list{
-            height: 0;
             & .list-item{
                 padding: 12px 24px;
                 text-align: center;

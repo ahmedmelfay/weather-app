@@ -137,8 +137,15 @@ Search.addEventListener('keyup',function(){
 
 //Hamburger navbar button function for small screens
 Ham.addEventListener('click',function(){
-    if(NavList.style.height=='0px' || NavList.style.height=='') NavList.style.height='250px';
-    else NavList.style.height='0px';
+    if(NavList.classList.contains('nav-visible')){
+        NavList.classList.remove('nav-visible');
+        NavList.classList.add('nav-not-visible');
+    }
+    else if(NavList.classList.contains('nav-not-visible')){
+        NavList.classList.add('nav-visible');
+        NavList.classList.remove('nav-not-visible');
+    }
+    console.log(NavList.classList);
 })
 
 
