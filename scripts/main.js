@@ -119,7 +119,7 @@ function getThirdDay(){
     if(d.getDay()==5){
         return WeekDays[0];
     }
-    else if(d.getDay()==4)return WeekDays[1];
+    else if(d.getDay()==6) return WeekDays[1];
     else return WeekDays[d.getDay()+2];
 }
 
