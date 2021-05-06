@@ -42,7 +42,7 @@ function displayCurrent(data){
     <h2 class="country pt-3">${data.location.name}</h2>
     <div class="d-flex justify-content-between align-items-center flex-wrap py-3">
         <h3 class="temp">${data.current.temp_c}&#176;C</h3>
-        <div class="w-25"><img src="${data.current.condition.icon}" alt="weather-status"></div>
+        <div class="w-25"><img src="https:${data.current.condition.icon}" alt="weather-status"></div>
     </div>
     <p class="condition py-3">${data.current.condition.text}</p>
     <div class="d-flex mt-3">
@@ -78,7 +78,7 @@ function displayNextDay(data){
 </div>
 <div class="py-4">
     <div class="day-time mt-1 mx-auto">
-        <img src="${data.forecast.forecastday[1].day.condition.icon}" alt="">
+        <img src="https:${data.forecast.forecastday[1].day.condition.icon}" alt="">
     </div>
     <div class="mb-5">
         <h3 class="temp">${data.forecast.forecastday[1].day.maxtemp_c}&#176;C</h3>
@@ -104,7 +104,7 @@ function displayLastDay(data){
 </div>
 <div class="py-4">
     <div class="day-time mt-1 mx-auto">
-        <img src="${data.forecast.forecastday[2].day.condition.icon}" alt="">
+        <img src="https:${data.forecast.forecastday[2].day.condition.icon}" alt="">
     </div>
     <div class="mb-5">
         <h3 class="temp">${data.forecast.forecastday[2].day.maxtemp_c}&#176;C</h3>
